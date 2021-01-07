@@ -1,0 +1,9 @@
+make
+make[1]: Entering directory `/c/Users/SharkSSD/Dropbox/LW'
+Compiling for Windows
+g++ -o main src/Map.cpp src/Matrix.cpp src/Object.cpp src/Quat.cpp src/SGraph.cpp src/quad.cpp -std=c++11 -lglu32 -lglew32 -lopengl32 -lSDL -Bstatic -lstdc++ -Dwindows
+Warning: resolving _WinMain@16 by linking to _WinMain
+Use --enable-stdcall-fixup to disable these warnings
+Use --disable-stdcall-fixup to disable these fixups
+make[1]: Leaving directory `/c/Users/SharkSSD/Dropbox/LW'
+start main
